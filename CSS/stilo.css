@@ -1,0 +1,160 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+a:link, a:active, a:visited{
+	color: #315e8a;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+/* Grid 960px (tamanho mais padrão de site que existe) */
+.linha{
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 5px 0;
+}
+.coluna{
+	padding: 0 10px;
+	float: left;
+}
+.col1{
+	width: 60px;
+}
+.col2{
+	width: 140px;
+}
+.col3{
+	width: 220px;
+}
+.col4{
+	width: 300px;
+}
+.col5{
+	width: 380px;
+}
+.col6{
+	width: 460px;
+}
+.col7{
+	width: 540px;
+}
+.col8{
+	width: 620px;
+}
+.col9{
+	width: 700px;
+}
+.col10{
+	width: 780px;
+}
+.col11{
+	width: 860px;
+}
+.col12{
+	width: 940px;
+}
+.sem-padding{
+	padding: 0 !important;
+}
+.sem-margin{
+	margin: 0 !important;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 500;
+	margin: 15px 0 10px 0;
+}
+ul li, ol li{
+	margin-bottom: 5px;
+}
+ul.inline li, ol.inline li{
+	display: inline;
+	margin-right: 15px;
+}
+ul.inline li:last-child, ol.inline li:last-child{
+	margin-right: 0;
+}
+ul.sem-marcador, ol.sem-marcador{
+	list-style: none;
+	color: #315e8a;
+}
+a.botao, input.botao{
+	background: #1f3c58;
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: #483D8B;
+	cursor: pointer;
+	margin: 5px 0;
+	display: inline-block;
+	border: none;
+}
+a.botao:hover, input.botao:hover{
+	background: #315e8a;
+	text-decoration: none;
+}
+.header{
+	background: #dee3e6;
+}
+h1.logo{
+	font-weight: 300;
+	color: #315e8a;
+	letter-spacing: -2px;
+}
+h2.logar{
+	font-weight: 300;
+	color: #315e8a;
+	letter-spacing: -2px;
+	float: right;
+	padding-top: 0;
+}
+.menu{
+	text-transform: capitalize;
+	text-align: right;
+	margin-top: 25px;
+}
+.menu li a, .infolink li a{
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+.menu li a:hover, .infolink li a:hover{
+	text-decoration: none;
+	background: #FF1493;
+	color: #ebebeb;
+}
+.cadastro label{
+	display: block;
+	font-size: 16px;
+	font-weight: 300;
+	
+}
+.cadastro input, .login input{
+	display: block;
+	margin-bottom: 25px;
+	padding: 5px 1%;
+	width: 65%;
+	position: absolute;
+}
+.cadastro input.botao, .login input.botao{
+	width: auto;
+	text-decoration: none;	
+	color: #ebebeb;
+}
+.cadastro input.botao:hover, .login input.botao:hover{
+	background: #FF1493;
+}
+h2.cad, h2.log, h1.open{	
+	color: #315e8a;
+}
+.submenus ul li a.botao{
+	color: #ebebeb;
+}
+.infolink li i{
+	float: center;
+	display: inline;
+	padding-left: 4em;
+}
+.info ul li a{
+	font-size: 160%;
+}
