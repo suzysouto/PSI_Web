@@ -32,9 +32,7 @@
 			<div class="coluna col7 login">
 				<h2 class="log">Faça login</h2>
 				<form name="loginform" method="post" action="userauthentication.php">
-					<!--<label for="email">Email: </label>-->
 					<input id="email" type="text" placeholder="Email" name="email" required autofocus /><br><br>
-					<!--<label for="senha">Senha: </label>-->
 					<input id="senha" type="password" placeholder="Senha" name="senha" required /><br><br>
 					<input type="submit" class="botao" name="enviar" value="Entrar" />
 				</form>

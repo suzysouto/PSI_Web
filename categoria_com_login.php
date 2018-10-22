@@ -33,7 +33,7 @@
 				<nav>
 					<ul class="menu inline sem-marcador">
 						<li><a href="categoria_com_login.php" class="botao">Categorias</a></li>
-						<li><a href="pesquisa.php" class="botao"><i class="fas fa-search"></i> Pesquisa</a></li>
+						<li><a href="pesquisa_com_login.php" class="botao"><i class="fas fa-search"></i> Pesquisa</a></li>
 					</ul>
 				</nav>
 			</div>

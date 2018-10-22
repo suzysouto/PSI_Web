@@ -1,20 +1,8 @@
-<?php
-	include_once("conexao.php"); 
-?>
-
-<?php
-session_start();
-if (!isset($_SESSION["email"]) || !isset($_SESSION["senha"])) {
-		header("Location: login.php");
-		exit;
-} 
-?>
-
 <!DOCTYPE html>
-<html>
+<html lang ="pt-br">
 <head>
-	<title>Liblyb - Espaço do usuário</title>
-	<meta charset="utf-8"/>
+    <meta charset="utf-8"/>
+	<title>LibLyb - Pesquisa</title>
 	<link rel="stylesheet" type="text/css" href="CSS/normalize.css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" /> 
 	<link rel="stylesheet" type="text/css" href="CSS/stilo.css" />
@@ -39,9 +27,9 @@ if (!isset($_SESSION["email"]) || !isset($_SESSION["senha"])) {
 			</header>
 		</div>
 	</div>
-	<div class="linha">
-		<section>
-			<div class="coluna col11 submenus">
+    <div class ="linha">
+    	<section>
+    		<div class="coluna col11 submenus">
 				<nav>
 					<ul class="menu inline sem-marcador">
 						<li><a href="categoria_com_login.php" class="botao">Categorias</a></li>
@@ -49,7 +37,13 @@ if (!isset($_SESSION["email"]) || !isset($_SESSION["senha"])) {
 					</ul>
 				</nav>
 			</div>
-		</section>
+			<div class=" coluna search-box">
+				<input class="search-txt" type="text" name="" placeholder="Pesquisar ..." />
+				<a class="search-btn">
+					<i class="fas fa-search"></i>
+				</a>
+			</div>
+			</section>
 	</div>
 </body>
 </html>
