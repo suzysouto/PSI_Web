@@ -7,6 +7,21 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" /> 
 	<link rel="stylesheet" type="text/css" href="CSS/stilo.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
+<script language="JavaScript">
+	function enviardados(){
+		if(document.dados.nome.value=="" || document.dados.nome.value.length < 8){
+			alert( "Preencha campo NOME corretamente!" );
+			document.dados.nome.focus();
+			return false;
+		} 	  
+		if( document.dados.email.value=="" || document.dados.email.value.indexOf('@')==-1 || document.dados.email.value.indexOf('.')==-1 ){
+			alert( "Preencha campo E-MAIL corretamente!" );
+			document.dados.email.focus();
+			return false;
+		}
+		return true;
+	}  
+</script>
 </head>
 <body>
 	<div class="header">
@@ -32,22 +47,13 @@
 			<div class="coluna col7 cadastro">
 				<h2 class="cad">Formulário de cadastro</h2><br>
 				
-				<form method="post" action="cadastrando.php">
-					<!--<label for="nome">Nome: </label>-->
+				<form method="post" action="cadastrando.php" name="dados" onsubmit="return enviardados();">
 					<input type="text" name="nome" placeholder="Digite seu nome aqui..." id="nome" required autofocus /><br><br>
-					<!--<label for="sobrenome">Sobrenome: </label>-->
 					<input type="text"  name="sobrenome" placeholder="Sobrenome" id="sobrenome" required /><br><br>
-					<!--<label for="nomesocial">Nome social: </label>-->
-					<!--<input type="text" name="nomesocial" placeholder="Caso prefira o nome social, digite aqui" id="nomesocial" /><br><br>-->
-					<!--<label for="cidade">Cidade: </label>-->
 					<input type="text" name="cidade" placeholder="Cidade" id="cidade" required /><br><br>
-					<!--<label for="estado">Estado: </label>-->
 					<input type="text" name="estado" placeholder="Estado" id="estado" required /><br><br>
-					<!--<label for="pais">País: </label>-->
 					<input type="text" name="pais" placeholder="País" id="pais" required /><br><br>
-					<!--<label for="email">Email: </label>-->
 					<input type="text"name="email" placeholder="Email" id="email" required /><br><br>
-					<!--<label for="senha">Senha: </label>-->
 					<input type="password" name="senha" placeholder="Senha" id="senha" required /><br><br>
 					<input type="submit" class="botao" name="enviar" value="Cadastrar" />
 				</form>

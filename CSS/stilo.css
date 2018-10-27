@@ -209,3 +209,11 @@ h2.cad, h2.log, h1.open{
  	width: 0px; 
  	font-weight: bold; 
 }
+.data_user{
+	padding-left: 30em;
+	font-size: 18px;
+}
+.data_user label{
+	padding-left: 1em;
+	font-style: italic;
+}

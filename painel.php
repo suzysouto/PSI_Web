@@ -1,13 +1,15 @@
 <?php
-	include_once("conexao.php"); 
-?>
-
-<?php
-session_start();
-if (!isset($_SESSION["email"]) || !isset($_SESSION["senha"])) {
-		header("Location: login.php");
-		exit;
-} 
+	include_once("conexao.php");
+	// Inicia sessões 
+	session_start(); 
+	 
+	// Verifica se existe os dados da sessão de login 
+	if(!isset($_SESSION["email"]) || !isset($_SESSION["senha"])) 
+	{ 
+		// Usuário não logado! Redireciona para a página de login 
+		header("Location: login.php"); 
+		exit; 
+	} 
 ?>
 
 <!DOCTYPE html>
@@ -48,6 +50,16 @@ if (!isset($_SESSION["email"]) || !isset($_SESSION["senha"])) {
 						<li><a href="pesquisa_com_login.php" class="botao"><i class="fas fa-search"></i> Pesquisa</a></li>
 					</ul>
 				</nav>
+				<div class="coluna col11 datauser">
+					<br><center><h1 class ="open">Conta</h1></center><br><br>
+					
+					<form class="data_user">
+						<strong>Nome:</strong> <label><?php echo $_SESSION['dados_user']['nome'];?></label><br><br>
+						<strong>Sobrenome:</strong> <label><?php echo $_SESSION['dados_user']['sobrenome'];?></label><br><br>
+						<strong>Email:</strong> <label><?php echo $_SESSION['dados_user']['email'];?></label><br><br>
+						<strong>Senha:</strong> <label><?php echo $_SESSION['dados_user']['senha'];?></label>
+					</form>
+				</div>					
 			</div>
 		</section>
 	</div>

@@ -31,7 +31,7 @@
 		<section>
 			<div class="coluna col7 login">
 				<h2 class="log">Faça login</h2>
-				<form name="loginform" method="post" action="userauthentication.php">
+				<form name="loginform" method="post" action="user_authentication.php">
 					<input id="email" type="text" placeholder="Email" name="email" required autofocus /><br><br>
 					<input id="senha" type="password" placeholder="Senha" name="senha" required /><br><br>
 					<input type="submit" class="botao" name="enviar" value="Entrar" />
