@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang ="pt-br">
 <head>
-	<title>Liblyb - Categorias</title>
-	<meta charset="utf-8"/>
+    <meta charset="utf-8"/>
+	<title>LibLyb</title>
 	<link rel="stylesheet" type="text/css" href="CSS/normalize.css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" /> 
 	<link rel="stylesheet" type="text/css" href="CSS/stilo.css" />
@@ -18,7 +18,6 @@
 				<div class="coluna col8">
 					<nav>
 						<ul class="menu inline sem-marcador">
-							<li><a href="index.php"><i class="fas fa-home"> Início</i></a></li>
 							<li><a href="painel.php"><i class="fas fa-user"> Ver perfil</i></a></li>
 							<li><a href="index.php"><i class="fas fa-user-circle"> Sair</i></a></li>
 						</ul>
@@ -27,9 +26,9 @@
 			</header>
 		</div>
 	</div>
-	<div class="linha">
-		<section>
-			<div class="coluna col11 submenus">
+    <div class ="linha">
+    	<section>
+    		<div class="coluna col11 submenus">
 				<nav>
 					<ul class="menu inline sem-marcador">
 						<li><a href="categoria_com_login.php" class="botao">Categorias</a></li>
@@ -37,19 +36,16 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="coluna col10 info">
-				<br><center><h1 class ="open">Categorias</h1></center><br>
-				<nav>
-			    	<ul class="infolink inline sem-marcador">
-			    		<li><i class="fas fa-laptop fa-2x"></i><a href="computacao.php">  Computação</a></li>
-			    		<li><i class="far fa-building fa-2x"></i><a href="localidades.php">  Localidades</a></li>
-			    		<li><i class="fas fa-code fa-2x"></i><a href="programacao.php">  Programação</a></li>
-					    <li><i class="fas fa-subway fa-2x"></i><a href="transportes.php">  Transportes</a></li>
-					    <li><i class="fab fa-accessible-icon fa-2x"></i><a href="acessibilidade.php">  Acessibilidade</a></li>
-					    <li><i class="fas fa-book fa-2x"></i><a href="disciplinas.php">  Disciplinas</a></li>	    
-					</ul>
-				</nav>
-			</div>
+    		<div class="coluna col11 info">
+			    <center><h1 class ="open">Bem vindo ao LibLyb</h1>
+			    <p>O LibLyb é uma plataforma educativa para<br> auxiliar usuários da linguagem LIBRAS.<br> Aqui você pode encontrar diversos videos explicativos<br> sobre sinais específicos que não são encontrados nos livros didáticos.</p><br> 
+			    <h1 class ="open">Descubra!</h1>
+			    <p>Além da função de pesquisa você poderá<br> encontrar novos sinais navegando<br> em nossas categorias.</p><br> 
+			    <h1 class ="open">Divirta-se!</h1>
+			    <p>Trazemos um sistema de pontuação que te dá<br> pontos sempre que você aprende novos sinais. <br>Com eles você pode desbloquear novas ações e conhecimentos.</p><br> 
+			    <h1 class ="open">Junte-se a nós!</h1>
+			    <p>Cadastre-se para salvar seus videos<br> favoritos, fazer comentários e juntar<br> pontos... Ou entre agora para dar uma <br>conferida!</p></center>
+			</div> 
 		</section>
 	</div>
 </body>

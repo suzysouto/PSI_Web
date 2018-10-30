@@ -30,7 +30,7 @@
 		// TUDO OK! Agora, passa os dados para a sessão e redireciona o usuário 
 		$_SESSION["dados_user"] = $row["email"];
 		$_SESSION['dados_user'] = $row;
-		header("Location: painel.php"); 
+		header("Location: index_com_login.php"); 
 		exit;
 	} else{
 		header("Location: login.php");
