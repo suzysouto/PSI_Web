@@ -18,7 +18,7 @@
 				<div class="coluna col8">
 					<nav>
 						<ul class="menu inline sem-marcador">
-							<li><a href="index.php"><i class="fas fa-home"> Início</i></a></li>
+							<li><a href="index_com_login.php"><i class="fas fa-home"> Início</i></a></li>
 							<li><a href="painel.php"><i class="fas fa-user"> Ver perfil</i></a></li>
 							<li><a href="index.php"><i class="fas fa-user-circle"> Sair</i></a></li>
 						</ul>

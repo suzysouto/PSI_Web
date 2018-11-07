@@ -38,10 +38,10 @@
 				</nav>
 			</div>
 			<div class=" coluna search-box">
-				<input class="search-txt" type="text" name="" placeholder="Pesquisar ..." />
-				<a class="search-btn">
-					<i class="fas fa-search"></i>
-				</a>
+				<input class="search-txt" type="text" name="search" placeholder="Pesquisar ..." />
+					<a class="search-btn">
+						<i class="fas fa-search"></i>
+					</a>
 			</div>
 		</section>
 	</div>

@@ -37,20 +37,30 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="coluna col11 info">
-				<br><center><h1 class ="open">Categorias</h1></center><br><br>
-				<nav>
-			    	<ul class="infolink inline sem-marcador">
-			    		<li><i class="fas fa-laptop fa-2x"></i><a href="computacao.php">  Computação</a></li>
-			    		<li><i class="far fa-building fa-2x"></i><a href="localidades.php">  Localidades</a></li>
-			    		<li><i class="fas fa-code fa-2x"></i><a href="programacao.php">  Programação</a></li>
-					    <li><i class="fas fa-subway fa-2x"></i><a href="transportes.php">  Transportes</a></li>
-					    <li><i class="fab fa-accessible-icon fa-2x"></i><a href="acessibilidade.php">  Acessibilidade</a></li>
-					    <li><i class="fas fa-book fa-2x"></i><a href="disciplinas.php">  Disciplinas</a></li>	    
-					</ul>
-				</nav>
+			<div class="coluna col11 categoria">
+				<br><center><h1 class ="open">Computação</h1></center><br>
 			</div>
-		</section>
-	</div>
+			</div>
+			<div class="container">
+				<div class="videoesquerda">
+					<p class="video"><strong>Something 1</strong></p><br>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/F9Bo89m2f6g" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Something 3</strong></p><br>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/F9Bo89m2f6g" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Something 5</strong></p><br>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/F9Bo89m2f6g" frameborder="0" allowfullscreen></iframe>
+				</div>
+
+				<div class="videodireita">
+					<p class="video"><strong>Something 2</strong></p><br>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/F9Bo89m2f6g" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Something 4</strong></p><br>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/F9Bo89m2f6g" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Something 6</strong></p><br>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/F9Bo89m2f6g" frameborder="0" allowfullscreen></iframe>
+				</div>
+				
+			</div>
+		</section>			
 </body>
 </html>

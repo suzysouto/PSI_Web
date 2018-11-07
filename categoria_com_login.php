@@ -18,7 +18,7 @@
 				<div class="coluna col8">
 					<nav>
 						<ul class="menu inline sem-marcador">
-							<li><a href="index.php"><i class="fas fa-home"> Início</i></a></li>
+							<li><a href="index_com_login.php"><i class="fas fa-home"> Início</i></a></li>
 							<li><a href="painel.php"><i class="fas fa-user"> Ver perfil</i></a></li>
 							<li><a href="index.php"><i class="fas fa-user-circle"> Sair</i></a></li>
 						</ul>
@@ -37,11 +37,11 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="coluna col10 info">
-				<br><center><h1 class ="open">Categorias</h1></center><br>
+			<div class="coluna col11 info">
+				<br><center><h1 class ="open">Categorias</h1></center><br><br>
 				<nav>
 			    	<ul class="infolink inline sem-marcador">
-			    		<li><i class="fas fa-laptop fa-2x"></i><a href="computacao.php">  Computação</a></li>
+			    		<li><i class="fas fa-laptop fa-2x"></i><a href="computacao_com_login.php">  Computação</a></li>
 			    		<li><i class="far fa-building fa-2x"></i><a href="localidades.php">  Localidades</a></li>
 			    		<li><i class="fas fa-code fa-2x"></i><a href="programacao.php">  Programação</a></li>
 					    <li><i class="fas fa-subway fa-2x"></i><a href="transportes.php">  Transportes</a></li>
