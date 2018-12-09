@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Liblyb - Categorias - Computação</title>
+	<title>Liblyb - Categorias - Programação</title>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="CSS/normalize.css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" /> 
@@ -38,26 +38,26 @@
 				</nav>
 			</div>
 			<div class="coluna col11 categoria">
-				<br><center><h1 class ="open">Computação</h1></center><br>
+				<br><center><h1 class ="open">Programação</h1></center><br>
 			</div>
 			</div>
 			<div class="container">
 				<div class="videoesquerda">
-					<p class="video"><strong>Windows</strong></p>
-					<iframe  width="400" height="319" src="https://www.youtube.com/embed/Pv0p0hgTDCI" frameborder="0" allowfullscreen></iframe>
-					<p class="video"><strong>Vírus</strong></p>
-					<iframe  width="400" height="319" src="https://www.youtube.com/embed/wHSyAct8Hxk" frameborder="0" allowfullscreen></iframe>
-					<p class="video"><strong>Twitter</strong></p>
-					<iframe  width="400" height="319" src="https://www.youtube.com/embed/aWdvLSGBQkU" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Algorítimo</strong></p>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/eaEuisD5QAA" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Estrutura</strong></p>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/Jps368YhFnY" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>For(para)</strong></p>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/GgcCrrt2ncw" frameborder="0" allowfullscreen></iframe>
 				</div>
 
 				<div class="videodireita">
-					<p class="video"><strong>Site</strong></p>
-					<iframe  width="400" height="319" src="https://www.youtube.com/embed/SW6ib4cVd6s" frameborder="0" allowfullscreen></iframe>
-					<p class="video"><strong>Facebook</strong></p>
-					<iframe  width="400" height="319" src="https://www.youtube.com/embed/Gf7IwbKeLug" frameborder="0" allowfullscreen></iframe>
-					<p class="video"><strong>Memória RAM</strong></p>
-					<iframe  width="400" height="319" src="https://www.youtube.com/embed/eLMJwR5js1M" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Repeat(repita)</strong></p>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/JxrP_HKmJCo" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Variável</strong></p>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/iiTFMSFZSP4" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Arrays(matriz)</strong></p>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/7MYVrldw-Do" frameborder="0" allowfullscreen></iframe>
 				</div>				
 			</div>
 		</section>			

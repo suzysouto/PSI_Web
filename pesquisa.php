@@ -7,6 +7,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" /> 
 	<link rel="stylesheet" type="text/css" href="CSS/stilo.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
+
+	<script type="text/javascript">
+		function fazerPesquisa(){
+			
+		}
+	</script>
 </head>
 <body>
 	<div class="header">
@@ -37,12 +43,18 @@
 					</ul>
 				</nav>
 			</div>
-			<div class=" coluna search-box">
+			<div class="coluna col10 pesq">
+				<form name="searchform" method="get" action="" onsubmit="return fazerPesquisa();">
+					<input type="text" name="pesquisa" placeholder="Pesquise aqui ..." required autofocus />
+					<input type="submit" name="enviar" class="btn" value="Pesquisar" />
+				</form>
+			</div>
+			<!--<div class=" coluna search-box">
 				<input class="search-txt" type="text" name="search" placeholder="Pesquisar ..." />
 					<a class="search-btn">
 						<i class="fas fa-search"></i>
 					</a>
-			</div>
+			</div>-->
 		</section>
 	</div>
 </body>

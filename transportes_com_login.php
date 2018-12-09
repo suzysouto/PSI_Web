@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Liblyb - Categorias - Computação</title>
+	<title>Liblyb - Categorias - Transportes</title>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="CSS/normalize.css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" /> 
@@ -38,26 +38,26 @@
 				</nav>
 			</div>
 			<div class="coluna col11 categoria">
-				<br><center><h1 class ="open">Computação</h1></center><br>
+				<br><center><h1 class ="open">Transportes</h1></center><br>
 			</div>
 			</div>
 			<div class="container">
 				<div class="videoesquerda">
-					<p class="video"><strong>Windows</strong></p>
-					<iframe  width="400" height="319" src="https://www.youtube.com/embed/Pv0p0hgTDCI" frameborder="0" allowfullscreen></iframe>
-					<p class="video"><strong>Vírus</strong></p>
-					<iframe  width="400" height="319" src="https://www.youtube.com/embed/wHSyAct8Hxk" frameborder="0" allowfullscreen></iframe>
-					<p class="video"><strong>Twitter</strong></p>
-					<iframe  width="400" height="319" src="https://www.youtube.com/embed/aWdvLSGBQkU" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Trem</strong></p>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/oDuoSoV9zFo" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Ônibus</strong></p>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/emwQd82M18U" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Metrô</strong></p>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/lD3UyTpmses" frameborder="0" allowfullscreen></iframe>
 				</div>
 
 				<div class="videodireita">
-					<p class="video"><strong>Site</strong></p>
-					<iframe  width="400" height="319" src="https://www.youtube.com/embed/SW6ib4cVd6s" frameborder="0" allowfullscreen></iframe>
-					<p class="video"><strong>Facebook</strong></p>
-					<iframe  width="400" height="319" src="https://www.youtube.com/embed/Gf7IwbKeLug" frameborder="0" allowfullscreen></iframe>
-					<p class="video"><strong>Memória RAM</strong></p>
-					<iframe  width="400" height="319" src="https://www.youtube.com/embed/eLMJwR5js1M" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Moto</strong></p>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/VJh7aObu3K0" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Carro</strong></p>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/lJve1lRzVGk" frameborder="0" allowfullscreen></iframe>
+					<p class="video"><strong>Avião</strong></p>
+					<iframe  width="400" height="319" src="https://www.youtube.com/embed/n5Bvvr1e0QI" frameborder="0" allowfullscreen></iframe>
 				</div>				
 			</div>
 		</section>

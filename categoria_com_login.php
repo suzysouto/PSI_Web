@@ -43,8 +43,8 @@
 			    	<ul class="infolink inline sem-marcador">
 			    		<li><i class="fas fa-laptop fa-2x"></i><a href="computacao_com_login.php">  Computação</a></li>
 			    		<li><i class="far fa-building fa-2x"></i><a href="localidades.php">  Localidades</a></li>
-			    		<li><i class="fas fa-code fa-2x"></i><a href="programacao.php">  Programação</a></li>
-					    <li><i class="fas fa-subway fa-2x"></i><a href="transportes.php">  Transportes</a></li>
+			    		<li><i class="fas fa-code fa-2x"></i><a href="programacao_com_login.php">  Programação</a></li>
+					    <li><i class="fas fa-subway fa-2x"></i><a href="transportes_com_login.php">  Transportes</a></li>
 					    <li><i class="fab fa-accessible-icon fa-2x"></i><a href="acessibilidade.php">  Acessibilidade</a></li>
 					    <li><i class="fas fa-book fa-2x"></i><a href="disciplinas.php">  Disciplinas</a></li>	    
 					</ul>

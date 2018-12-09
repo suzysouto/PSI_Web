@@ -220,6 +220,7 @@ h2.cad, h2.log, h1.open{
 p.video{
 	color: #315e8a;
 	font-style: italic;
+	text-decoration: underline;
 	font-size: 20px;
 	font-weight: 350;
 }
